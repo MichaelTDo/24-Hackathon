@@ -14,26 +14,46 @@
     </h1>
 
     <hr>
-
+    <h2 class="neonTextYellow">Select your color:</h2>
+    <select id="colors">
+        <option>Select here: </option>
+        <option>Red</option>
+        <option>Blue</option>
+        <option>Pink</option>
+        <option>Yellow</option>
+        <option>Green</option>
+    </select>
     <h2 class="neonTextYellow">Enter your text:</h2> 
-    <form action="/action_page.php">
+    <form>
         <label for="fname"></label>
 
         <!-- User Enters Text -->
         <div class="textBox">
-            <textarea id="fname" rows="15" cols="65">
+            <textarea id="text" rows="15" cols="65">
 
             </textarea>
         </div>
         <!-- Submit Button-->
-        <input type="submit" value="Submit">
+        <button onClick="handleInput()">Neoni-fy</button>
       </form>
 
       <hr>
       <!-- Outputting the text in Neon -->
       <h2 class="neonTextYellow">Your Text in Neon:</h2>
-
+      <div id="output">Output</div>
  </div>
+ <script>
+    function handleInput() {
+        let input = document.getElementById("text");
+        let output = document.getElementById("output"); 
+        output.innerHTML = neonifyText(input);
+    }
+    function neonifyText(output) {
+        if (getElementById("colors") === "Red") {
+            console.log(output) 
+        }
+    }
+ </script>
 
  </body>
  </html>
