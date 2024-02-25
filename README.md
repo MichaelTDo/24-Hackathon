@@ -9,7 +9,9 @@ The Neon-ifier is a simple web application that allows users to transform their 
 - Instantly see the neon-ified output.
   
 ### How to use:
-- Git clone the code and run locally
+- Git clone the code and run locally using these commands:
+   - $ cd 24-Hackathon
+   - $ {browser} main.html
 - Select a neon color from the dropdown menu.
 - Enter your text in the provided textarea.
 - Click the "Neon-ify" button to generate the neon effect.
