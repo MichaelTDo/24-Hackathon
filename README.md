@@ -9,7 +9,7 @@ The Neon-ifier is a simple web application that allows users to transform their 
 - Instantly see the neon-ified output.
   
 ### How to use:
-- Open index.html in a web browser.
+- Open main.html in a web browser.
 - Select a neon color from the dropdown menu.
 - Enter your text in the provided textarea.
 - Click the "Neon-ify" button to generate the neon effect.
