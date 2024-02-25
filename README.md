@@ -1,3 +1,4 @@
 <h1>Neoni-fy Your Text</h1>
-<p>Type in whatever text you like and this tool will give you neon colors for your text!</p>
+<h2>Overview</h2>
+<p>Welcome to the text neonifier repository!  Here, you can type in your text, any text you'd like, and you could get the same text, but in neon colors.</p>
 <p>Credits: Adrian Vazquez, Michael Do</p>
