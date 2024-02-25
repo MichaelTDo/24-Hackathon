@@ -32,7 +32,7 @@
   body {
     font-size: 18px;
     font-family: "Vibur", sans-serif;
-    background-image: url("image\ folder/neonBG.webp");
+    background-image: url("neonBG.webp");
     background-size:cover;    
     margin-bottom: 300px;
   }  
