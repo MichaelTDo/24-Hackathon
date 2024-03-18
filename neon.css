@@ -115,6 +115,12 @@
   }
 
 #output {
+  font-size: 35px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    text-wrap: wrap;
+  border: 10px 10px 10px white;
   margin:auto 20%;
   color: #fff;
   text-shadow:
